@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>ContextMenuPlus Options</title>
+	<link href="css/options.css" media="screen" rel="stylesheet" title="CSS" type="text/css" />
+</head>
+<body>
+<h4>ContextMenuPlus Options</h4>
+<div id="Options">
+	<fieldset>
+	<legend>Context Menu Items</legend>
+		<p>
+			<input type="checkbox" id="cpageTitle" />
+			<label for="cpageTitle">Copy Page Title</label>
+		</p>
+		<p>
+			<input type="checkbox" id="cpageurl" />
+			<label for="cpageurl">Copy Page URL</label>
+		</p>
+		<p>
+			<input type="checkbox" id="opageHostname" />
+			<label for="opageHostname">Open Page Hostname</label>
+		</p>
+		<p>
+			<input type="checkbox" id="cplaintext" />
+			<label for="cplaintext">Copy as Plain Text</label>
+		</p>
+		<p>
+			<input type="checkbox" id="clinkText" />
+			<label for="clinkText">Copy Link Text</label>
+		</p>
+		<p>
+			<input type="checkbox" id="olinkHostname" />
+			<label for="olinkHostname">Open Link Hostname</label>
+		</p>
+	</fieldset>
+	<fieldset>
+	<legend>Shortcut Keys</legend>
+	<p>
+		<input type="checkbox" id="ctextTitleHotKey" />
+		<label for="ctextTitleHotKey">Copy as Plain Text, Copy Page Title</label><br />
+	</p>
+	<p class="shortcut">Ctrl+Shift+<input type="text" id="cttHotkey" size="1" /><span>[a-z, 0-9]</span></p>
+	<p>
+		<input type="checkbox" id="cpageurlHotkey" />
+		<label for="cpageurlHotkey">Copy Page URL</label><br />
+	</p>
+	<p class="shortcut">Ctrl+Shift+<input type="text" id="cpuHotkey" size="1" /><span>[a-z, 0-9]</span></p>
+	</fieldset>
+	<div id="save_btn" class="btn">Save</div>
+	<div id="notification"></div>
+</div>
+</body>
+</html>
