@@ -9,6 +9,8 @@ $(function() {
 		$("#cpAsLink").prop("checked", opts.cpAsLink);
 		$("#opageHostname").prop("checked", opts.opageHostname);
 		$("#cplaintext").prop("checked", opts.cplaintext);
+		$("#ctAsHtmlLink").prop("checked", opts.ctAsHtmlLink);
+		$("#ctAsLink").prop("checked", opts.ctAsLink);
 		$("#cAsHtmlCode").prop("checked", opts.cAsHtmlCode);
 		$("#clinkText").prop("checked", opts.clinkText);
 		$("#olinkHostname").prop("checked", opts.olinkHostname);
@@ -81,6 +83,12 @@ $(function() {
     	if($("#cplaintext").is(':checked')) {
     		options.cplaintext = true;
     	} else { options.cplaintext = false; }
+    	if($("#ctAsHtmlLink").is(':checked')) {
+    		options.ctAsHtmlLink = true;
+    	} else { options.ctAsHtmlLink = false; }
+    	if($("#ctAsLink").is(':checked')) {
+    		options.ctAsLink = true;
+    	} else { options.ctAsLink = false; }
     	if($("#cAsHtmlCode").is(':checked')) {
     		options.cAsHtmlCode = true;
     	} else { options.cAsHtmlCode = false; }
