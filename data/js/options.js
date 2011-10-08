@@ -4,9 +4,9 @@ $(function() {
 	function checkOptions(opts) {
 		$("#cpageTitle").prop("checked", opts.cpageTitle);
 		$("#cpageurl").prop("checked", opts.cpageurl);
+		$("#cpAsHtmlLink").prop("checked", opts.cpAsHtmlLink);
 		$("#opageHostname").prop("checked", opts.opageHostname);
 		$("#cplaintext").prop("checked", opts.cplaintext);
-		$("#cAsHtml").prop("checked", opts.cAsHtml);
 		$("#cAsHtmlCode").prop("checked", opts.cAsHtmlCode);
 		$("#clinkText").prop("checked", opts.clinkText);
 		$("#olinkHostname").prop("checked", opts.olinkHostname);
@@ -64,15 +64,15 @@ $(function() {
     	if($("#cpageurl").is(':checked')) {
     		options.cpageurl = true;
     	} else { options.cpageurl = false; }
+    	if($("#cpAsHtmlLink").is(':checked')) {
+    		options.cpAsHtmlLink = true;
+    	} else { options.cpAsHtmlLink = false; }
     	if($("#opageHostname").is(':checked')) {
     		options.opageHostname = true;
     	} else { options.opageHostname = false; }
     	if($("#cplaintext").is(':checked')) {
     		options.cplaintext = true;
     	} else { options.cplaintext = false; }
-    	if($("#cAsHtml").is(':checked')) {
-    		options.cAsHtml = true;
-    	} else { options.cAsHtml = false; }
     	if($("#cAsHtmlCode").is(':checked')) {
     		options.cAsHtmlCode = true;
     	} else { options.cAsHtmlCode = false; }
