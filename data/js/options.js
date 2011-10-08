@@ -4,6 +4,7 @@ $(function() {
 	function checkOptions(opts) {
 		$("#cpageTitle").prop("checked", opts.cpageTitle);
 		$("#cpageurl").prop("checked", opts.cpageurl);
+		$("#cpTitleURL").prop("checked", opts.cpTitleURL);
 		$("#cpAsHtmlLink").prop("checked", opts.cpAsHtmlLink);
 		$("#cpAsLink").prop("checked", opts.cpAsLink);
 		$("#opageHostname").prop("checked", opts.opageHostname);
@@ -65,6 +66,9 @@ $(function() {
     	if($("#cpageurl").is(':checked')) {
     		options.cpageurl = true;
     	} else { options.cpageurl = false; }
+    	if($("#cpTitleURL").is(':checked')) {
+    		options.cpTitleURL = true;
+    	} else { options.cpTitleURL = false; }
     	if($("#cpAsHtmlLink").is(':checked')) {
     		options.cpAsHtmlLink = true;
     	} else { options.cpAsHtmlLink = false; }
