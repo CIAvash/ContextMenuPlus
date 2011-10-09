@@ -46,6 +46,10 @@ span {
 	font-size: 13px;
 	margin: 0 10px;
 }
+.pane {
+	float: left;
+	width: 211px;
+}
 .shortcut {
 	margin-left: 30px;
 }
