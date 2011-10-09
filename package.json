@@ -5,5 +5,5 @@
     "version": "0.6", 
     "fullName": "ContextMenuPlus", 
     "id": "jid1-JslOo8hXnC8AZA", 
-    "description": "Copy Page Title, Copy Page URL, Copy Link Text, Copy as Plain Text, Open Page and Link Hostnames."
+    "description": "ContextMenuPlus adds some items to context menu(right-click menu) for copying page title and URL, copying link text, copying selected text as plain text, copying selection as HTML, copying as link and HTML link, and opening page and link Hostnames."
 }
