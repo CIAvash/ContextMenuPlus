@@ -4,7 +4,8 @@
 Description
 -----------
 
-ContextMenuPlus adds some items to context menu(right-click menu) for copying page title and URL, copying link text, copying selected text as plain text, copying selection as HTML, copying as link and HTML link, and opening page and link Hostnames.
+ContextMenuPlus adds some items to context menu(right-click menu):
+Copy Page Title, Copy Page URL, Copy as HTML Link, Copy as Link, Open Page Hostname, Copy as Plain Text, Copy as HTML, Copy Link Text, Open Link Hostname.
 
 Details
 -------
@@ -22,6 +23,7 @@ Following items are available:
 * Copy as HTML
 * Copy as HTML Link(Selection)
 * Copy as Link(Selection)
+* Copy Text and URL
 * Copy Link Text
 * Open Link Hostname
 
