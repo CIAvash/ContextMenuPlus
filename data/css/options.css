@@ -53,6 +53,9 @@ span {
 .shortcut {
 	margin-left: 30px;
 }
+.shortcut input {
+	width: 25px;
+}
 .btn {
 	background: #404040;
 	color: #fff;

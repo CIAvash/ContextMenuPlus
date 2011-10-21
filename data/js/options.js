@@ -13,6 +13,7 @@ $(function() {
 		$("#ctAsHtmlLink").prop("checked", opts.ctAsHtmlLink);
 		$("#ctAsLink").prop("checked", opts.ctAsLink);
 		$("#cAsHtmlCode").prop("checked", opts.cAsHtmlCode);
+		$("#csTextURL").prop("checked", opts.csTextURL);
 		$("#clinkText").prop("checked", opts.clinkText);
 		$("#olinkHostname").prop("checked", opts.olinkHostname);
 		$("#ctextTitleHotKey").prop("checked", opts.ctextTitleHotKey);
@@ -96,6 +97,9 @@ $(function() {
     	if($("#cAsHtmlCode").is(':checked')) {
     		options.cAsHtmlCode = true;
     	} else { options.cAsHtmlCode = false; }
+    	if($("#csTextURL").is(':checked')) {
+    		options.csTextURL = true;
+    	} else { options.csTextURL = false; }
     	if($("#clinkText").is(':checked')) {
     		options.clinkText = true;
     	} else { options.clinkText = false; }
