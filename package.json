@@ -5,5 +5,103 @@
     "version": "0.8", 
     "fullName": "ContextMenuPlus", 
     "id": "jid1-JslOo8hXnC8AZA", 
-    "description": "ContextMenuPlus adds some items to context menu(right-click menu): Copy Page Title, Copy Page URL, Copy as HTML Link, Copy as Link, Open Page Hostname, Copy as Plain Text, Copy as HTML, Copy Link Text, Open Link Hostname."
+    "description": "ContextMenuPlus adds some items to context menu(right-click menu): Copy Page Title, Copy Page URL, Copy as HTML Link, Copy as Link, Open Page Hostname, Copy as Plain Text, Copy as HTML, Copy Link Text, Open Link Hostname.",
+    "preferences": [
+        {
+            "type": "bool",
+            "name": "copyPageTitle",
+            "value": true,
+            "title": "Copy Page Title" 
+        },
+        {
+            "type": "bool",
+            "name": "copyPageURL",
+            "value": true,
+            "title": "Copy Page URL" 
+        },
+        {
+            "type": "bool",
+            "name": "copyPageTitleAndURL",
+            "value": true,
+            "title": "Copy Page Title and URL" 
+        },
+        {
+            "type": "bool",
+            "name": "copyTitleAndURLOfAllTabs",
+            "value": false,
+            "title": "Copy Title & URL of all Tabs" 
+        },
+        {
+            "type": "bool",
+            "name": "copyAsHTMLLink",
+            "value": false,
+            "title": "Copy as HTML Link(Page)" 
+        },
+        {
+            "type": "bool",
+            "name": "copyAsLink",
+            "value": false,
+            "title": "Copy as Link(Page)" 
+        },
+        {
+            "type": "bool",
+            "name": "openPageHostname",
+            "value": true,
+            "title": "Open Page Hostname" 
+        },
+        {
+            "type": "bool",
+            "name": "copyAsPlainText",
+            "value": true,
+            "title": "Copy as Plain Text" 
+        },
+        {
+            "type": "bool",
+            "name": "copySelectionAsHTMLLink",
+            "value": false,
+            "title": "Copy as HTML Link(Selection)" 
+        },
+        {
+            "type": "bool",
+            "name": "copySelectionAsLink",
+            "value": false,
+            "title": "Copy as Link(Selection)" 
+        },
+        {
+            "type": "bool",
+            "name": "copyAsHTML",
+            "value": false,
+            "title": "Copy as HTML" 
+        },
+        {
+            "type": "bool",
+            "name": "copyTextAndURL",
+            "value": true,
+            "title": "Copy Text and URL" 
+        },
+        {
+            "type": "bool",
+            "name": "copyLinkText",
+            "value": true,
+            "title": "Copy Link Text" 
+        },
+        {
+            "type": "bool",
+            "name": "openLinkHostname",
+            "value": true,
+            "title": "Open Link Hostname" 
+        },
+        {
+            "type": "string",
+            "name": "ptextAndPtitleHotkey",
+            "value": "c",
+            "title": "Hotkey for Copy as Plain Text, Copy Page Title(Ctrl+Shift+[a-z, 0-9])"
+        },
+        {
+            "type": "string",
+            "name": "copyPageURLHotkey",
+            "value": "u",
+            "title": "Hotkey for Copy Page URL(Ctrl+Shift+[a-z, 0-9])"
+        }
+    ]
 }
