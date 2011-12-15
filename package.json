@@ -2,7 +2,7 @@
     "name": "contextmenuplus", 
     "license": "MPL 1.1", 
     "author": "Siavash Askari Nasr", 
-    "version": "0.8", 
+    "version": "0.9", 
     "fullName": "ContextMenuPlus", 
     "id": "jid1-JslOo8hXnC8AZA", 
     "description": "ContextMenuPlus adds some items to context menu(right-click menu): Copy Page Title, Copy Page URL, Copy as HTML Link, Copy as Link, Open Page Hostname, Copy as Plain Text, Copy as HTML, Copy Link Text, Open Link Hostname.",
@@ -90,6 +90,12 @@
             "name": "openLinkHostname",
             "value": true,
             "title": "Open Link Hostname" 
+        },
+        {
+            "type": "bool",
+            "name": "stopLoadingImage",
+            "value": false,
+            "title": "Stop Loading Image" 
         },
         {
             "type": "string",
