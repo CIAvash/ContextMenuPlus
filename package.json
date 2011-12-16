@@ -98,6 +98,12 @@
             "title": "Stop Loading Image" 
         },
         {
+            "type": "bool",
+            "name": "copyFeedURL",
+            "value": false,
+            "title": "Copy Feed URL" 
+        },
+        {
             "type": "string",
             "name": "ptextAndPtitleHotkey",
             "value": "c",
