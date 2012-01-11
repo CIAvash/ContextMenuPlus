@@ -4,8 +4,7 @@
 Description
 -----------
 
-ContextMenuPlus adds some items to context menu(right-click menu):
-Copy Page Title, Copy Page URL, Copy as HTML Link, Copy as Link, Open Page Hostname, Copy as Plain Text, Copy as HTML, Copy Link Text, Open Link Hostname.
+ContextMenuPlus adds extra items to context menu(right-click menu).
 
 Details
 -------
@@ -26,10 +25,12 @@ Following items are available:
 * Copy Text and URL
 * Copy Link Text
 * Open Link Hostname
+* Stop Loading Image
+* Copy Feed URL
 
 Shortcut keys:
 
 * `Ctrl+Shift+C` - Copy as Plain Text, Copy Page Title
 * `Ctrl+Shift+U` - Copy Page URL
 
-You can enable or disable features and change shortcut keys from Options panel.
+You can enable or disable features and change shortcut keys from Preferences/Options in Add-ons Manager.
