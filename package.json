@@ -104,6 +104,12 @@
             "title": "Copy Feed URL" 
         },
         {
+            "type": "bool",
+            "name": "pasteAndSubmit",
+            "value": false,
+            "title": "Paste & Submit" 
+        },
+        {
             "type": "string",
             "name": "ptextAndPtitleHotkey",
             "value": "c",
