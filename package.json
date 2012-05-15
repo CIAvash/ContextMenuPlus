@@ -140,6 +140,13 @@
             "value": "u",
             "title": "Hotkey for Copy Page URL",
             "description": "Ctrl+Shift+[a-z, 0-9]"
+        },
+        {
+            "type": "string",
+            "name": "pasteAndSubmitHotKey",
+            "value": "v",
+            "title": "Hotkey for Paste & Submit",
+            "description": "Ctrl+Shift+[a-z, 0-9]"
         }
     ]
 }
