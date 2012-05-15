@@ -87,6 +87,12 @@
         },
         {
             "type": "bool",
+            "name": "copyLinkTextAndURL",
+            "value": true,
+            "title": "Copy Link Text & URL" 
+        },
+        {
+            "type": "bool",
             "name": "copyLinkTextAndPageURL",
             "value": false,
             "title": "Copy Link Text & Page URL" 
