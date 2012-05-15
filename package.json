@@ -114,14 +114,14 @@
             "name": "ptextAndPtitleHotkey",
             "value": "c",
             "title": "Hotkey for Copy as Plain Text, Copy Page Title",
-            "description": "[a-z, 0-9]"
+            "description": "Ctrl+Shift+[a-z, 0-9]"
         },
         {
             "type": "string",
             "name": "copyPageURLHotkey",
             "value": "u",
             "title": "Hotkey for Copy Page URL",
-            "description": "[a-z, 0-9]"
+            "description": "Ctrl+Shift+[a-z, 0-9]"
         }
     ]
 }
