@@ -11,115 +11,121 @@
             "type": "bool",
             "name": "copyPageTitle",
             "value": true,
-            "title": "Copy Page Title" 
+            "title": "Copy Page Title"
         },
         {
             "type": "bool",
             "name": "copyPageURL",
             "value": true,
-            "title": "Copy Page URL" 
+            "title": "Copy Page URL"
         },
         {
             "type": "bool",
             "name": "copyPageTitleAndURL",
             "value": true,
-            "title": "Copy Page Title and URL" 
+            "title": "Copy Page Title and URL"
         },
         {
             "type": "bool",
             "name": "copyTitleAndURLOfAllTabs",
             "value": false,
-            "title": "Copy Title & URL of all Tabs" 
+            "title": "Copy Title & URL of all Tabs"
         },
         {
             "type": "bool",
             "name": "copyAsHTMLLink",
             "value": false,
-            "title": "Copy as HTML Link(Page)" 
+            "title": "Copy as HTML Link(Page)"
         },
         {
             "type": "bool",
             "name": "copyAsLink",
             "value": false,
-            "title": "Copy as Link(Page)" 
+            "title": "Copy as Link(Page)"
         },
         {
             "type": "bool",
             "name": "openPageHostname",
             "value": true,
-            "title": "Open Page Hostname" 
+            "title": "Open Page Hostname"
         },
         {
             "type": "bool",
             "name": "copyAsPlainText",
             "value": true,
-            "title": "Copy as Plain Text" 
+            "title": "Copy as Plain Text"
         },
         {
             "type": "bool",
             "name": "copySelectionAsHTMLLink",
             "value": false,
-            "title": "Copy as HTML Link(Selection)" 
+            "title": "Copy as HTML Link(Selection)"
         },
         {
             "type": "bool",
             "name": "copySelectionAsLink",
             "value": false,
-            "title": "Copy as Link(Selection)" 
+            "title": "Copy as Link(Selection)"
         },
         {
             "type": "bool",
             "name": "copyAsHTML",
             "value": false,
-            "title": "Copy as HTML" 
+            "title": "Copy as HTML"
         },
         {
             "type": "bool",
             "name": "copyTextAndURL",
             "value": true,
-            "title": "Copy Text and URL" 
+            "title": "Copy Text and URL"
         },
         {
             "type": "bool",
             "name": "copyLinkText",
             "value": true,
-            "title": "Copy Link Text" 
+            "title": "Copy Link Text"
         },
         {
             "type": "bool",
             "name": "copyLinkTextAndURL",
-            "value": true,
-            "title": "Copy Link Text & URL" 
+            "value": false,
+            "title": "Copy Link Text & URL"
         },
         {
             "type": "bool",
             "name": "copyLinkTextAndPageURL",
             "value": false,
-            "title": "Copy Link Text & Page URL" 
+            "title": "Copy Link Text & Page URL"
+        },
+        {
+            "type": "bool",
+            "name": "copyAsPlainLink",
+            "value": false,
+            "title": "Copy As Plain Link"
         },
         {
             "type": "bool",
             "name": "openLinkHostname",
             "value": true,
-            "title": "Open Link Hostname" 
+            "title": "Open Link Hostname"
         },
         {
             "type": "bool",
             "name": "stopLoadingImage",
             "value": false,
-            "title": "Stop Loading Image" 
+            "title": "Stop Loading Image"
         },
         {
             "type": "bool",
             "name": "copyFeedURL",
             "value": false,
-            "title": "Copy Feed URL" 
+            "title": "Copy Feed URL"
         },
         {
             "type": "bool",
             "name": "pasteAndSubmit",
             "value": false,
-            "title": "Paste & Submit" 
+            "title": "Paste & Submit"
         },
         {
             "type": "string",
