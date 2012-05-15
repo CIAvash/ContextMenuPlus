@@ -24,13 +24,18 @@ Following items are available:
 * Copy as Link(Selection)
 * Copy Text and URL
 * Copy Link Text
+* Copy Link Text & URL
+* Copy Link Text & Page URL
+* Copy As Plain Link
 * Open Link Hostname
 * Stop Loading Image
 * Copy Feed URL
+* Paste & Submit
 
 Shortcut keys:
 
 * `Ctrl+Shift+C` - Copy as Plain Text, Copy Page Title
 * `Ctrl+Shift+U` - Copy Page URL
+* `Ctrl+Shift+V` - Paste & Submit
 
 You can enable or disable features and change shortcut keys from Preferences/Options in Add-ons Manager.
