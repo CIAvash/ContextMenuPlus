@@ -87,6 +87,12 @@
         },
         {
             "type": "bool",
+            "name": "copyLinkTextAndPageURL",
+            "value": false,
+            "title": "Copy Link Text & Page URL" 
+        },
+        {
+            "type": "bool",
             "name": "openLinkHostname",
             "value": true,
             "title": "Open Link Hostname" 
