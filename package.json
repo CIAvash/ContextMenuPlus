@@ -128,6 +128,12 @@
             "title": "Paste & Submit"
         },
         {
+            "type": "bool",
+            "name": "showPageRank",
+            "value": false,
+            "title": "Show Google PageRank"
+        },
+        {
             "type": "string",
             "name": "ptextAndPtitleHotkey",
             "value": "c",
