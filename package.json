@@ -11,127 +11,148 @@
             "type": "bool",
             "name": "copyPageTitle",
             "value": true,
-            "title": "Copy Page Title"
+            "title": "Copy Page Title",
+            "description": "Copies title of the page."
         },
         {
             "type": "bool",
             "name": "copyPageURL",
             "value": true,
-            "title": "Copy Page URL"
+            "title": "Copy Page URL",
+            "description": "Copies URL of the page."
         },
         {
             "type": "bool",
             "name": "copyPageTitleAndURL",
             "value": true,
-            "title": "Copy Page Title and URL"
+            "title": "Copy Page Title and URL",
+            "description": "Copies title and URL of the page, separated with a newline character."
         },
         {
             "type": "bool",
             "name": "copyTitleAndURLOfAllTabs",
             "value": false,
-            "title": "Copy Title & URL of all Tabs"
+            "title": "Copy Title & URL of all Tabs",
+            "description": "Copies titles and URLs of all open tabs, separated with newline characters."
         },
         {
             "type": "bool",
             "name": "copyAsHTMLLink",
             "value": false,
-            "title": "Copy as HTML Link(Page)"
+            "title": "Copy as HTML Link [Page Context]",
+            "description": "Copies an HTML link of the page. e.g., <a href=\"http://potatozone.com/en/\">PotatoZone</a>"
         },
         {
             "type": "bool",
             "name": "copyAsLink",
             "value": false,
-            "title": "Copy as Link(Page)"
+            "title": "Copy as Link [Page Context]",
+            "description": "Copies a normal clickable link of the page."
         },
         {
             "type": "bool",
             "name": "openPageHostname",
             "value": true,
-            "title": "Open Page Hostname"
+            "title": "Open Page Hostname",
+            "description": "Opens hostname of the page. e.g., on \"http://potatozone.com/en/projects/\", opens \"http://potatozone.com/\""
         },
         {
             "type": "bool",
             "name": "copyAsPlainText",
             "value": true,
-            "title": "Copy as Plain Text"
+            "title": "Copy as Plain Text",
+            "description": "Copies selected text without formatting."
         },
         {
             "type": "bool",
             "name": "copySelectionAsHTMLLink",
             "value": false,
-            "title": "Copy as HTML Link(Selection)"
+            "title": "Copy as HTML Link [Selection Context]",
+            "description": "Copies an HTML link. Selected text is used for its name and page URL is used for its \"href\" attribute."
         },
         {
             "type": "bool",
             "name": "copySelectionAsLink",
             "value": false,
-            "title": "Copy as Link(Selection)"
+            "title": "Copy as Link [Selection Context]",
+            "description": "Copies a normal clickable link of the page. Selected text is used for its name."
         },
         {
             "type": "bool",
             "name": "copyAsHTML",
             "value": false,
-            "title": "Copy as HTML"
+            "title": "Copy as HTML",
+            "description": "Copies HTML code of selection as it is in the page source."
         },
         {
             "type": "bool",
             "name": "copyTextAndURL",
             "value": true,
-            "title": "Copy Text and URL"
+            "title": "Copy Text and URL",
+            "description": "Copies selected text and URL of the page, separated with a newline character."
         },
         {
             "type": "bool",
             "name": "copyLinkText",
             "value": true,
-            "title": "Copy Link Text"
+            "title": "Copy Link Text",
+            "description": "Copies name of the link."
         },
         {
             "type": "bool",
             "name": "copyLinkTextAndURL",
             "value": false,
-            "title": "Copy Link Text & URL"
+            "title": "Copy Link Text & URL",
+            "description": "Copies name and URL of the link, separated with a newline character."
         },
         {
             "type": "bool",
             "name": "copyLinkTextAndPageURL",
             "value": false,
-            "title": "Copy Link Text & Page URL"
+            "title": "Copy Link Text & Page URL",
+            "description": "Copies name of the link and URL of the page, separated with a newline character."
         },
         {
             "type": "bool",
             "name": "copyAsPlainLink",
             "value": false,
-            "title": "Copy As Plain Link"
+            "title": "Copy As Plain Link",
+            "description": "Copies the link without formatting."
         },
         {
             "type": "bool",
             "name": "openLinkHostname",
             "value": true,
-            "title": "Open Link Hostname"
+            "title": "Open Link Hostname",
+            "description": "Opens hostname of the link."
         },
         {
             "type": "bool",
             "name": "stopLoadingImage",
             "value": false,
-            "title": "Stop Loading Image"
+            "title": "Stop Loading Image",
+            "description": "Stops the image from being loaded."
         },
         {
             "type": "bool",
             "name": "copyFeedURL",
             "value": false,
-            "title": "Copy Feed URL"
+            "title": "Copy Feed URL",
+            "description": "Shows feeds of the page in a sub-menu. By clicking on a feed, you can copy its URL."
         },
         {
             "type": "bool",
             "name": "pasteAndSubmit",
             "value": false,
-            "title": "Paste & Submit"
+            "title": "Paste & Submit",
+            "description": "When used on a text input or textarea, pastes the clipboard content, then submits the form."
         },
         {
             "type": "bool",
             "name": "showPageRank",
             "value": false,
-            "title": "Show Google PageRank"
+            "title": "Show Google PageRank",
+            "description": "Shows Google's rank of the page."
         },
         {
             "type": "string",
