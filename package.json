@@ -5,7 +5,7 @@
     "version": "1.3", 
     "fullName": "ContextMenuPlus", 
     "id": "jid1-JslOo8hXnC8AZA", 
-    "description": "ContextMenuPlus adds extra items to context menu(right-click menu): Copy Page Title, Copy Page URL, Copy as HTML Link, Copy as Link, Open Page Hostname, Copy as Plain Text, Copy as HTML, Copy Link Text, Open Link Hostname, Stop Loading Image, Copy Feed URL.",
+    "description": "ContextMenuPlus adds extra items to context menu(right-click menu): Copy Page Title, Copy Page URL, Copy as HTML Link, Copy as Link, Open Page Hostname, Copy as Plain Text, Copy as HTML, Copy Link Text, Copy Feed URL, Paste & Submit, Show Google PageRank, ...",
     "preferences": [
         {
             "type": "bool",
