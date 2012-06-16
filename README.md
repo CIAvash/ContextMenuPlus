@@ -31,6 +31,7 @@ Following items are available:
 * Stop Loading Image
 * Copy Feed URL
 * Paste & Submit
+* Show Google PageRank
 
 Shortcut keys:
 
