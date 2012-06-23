@@ -152,7 +152,7 @@
             "name": "showPageRank",
             "value": false,
             "title": "Show Google PageRank",
-            "description": "Shows Google's rank of the page."
+            "description": "Shows Google PageRank for the current page."
         },
         {
             "type": "string",
