@@ -8,5 +8,5 @@ self.on("context", function (node) {
 self.on("click", function (node, data) {
     var url = document.location;
     var purl = 'http://toolbarqueries.google.com/tbr?client=navclient-auto&ch=6'+GoogleCH(strord('info:'+url))+'&features=Rank&q=info:'+url;
-	self.postMessage(purl);
+    self.postMessage(purl);
 });

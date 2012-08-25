@@ -9,8 +9,8 @@ if(document.activeElement && ( (document.activeElement.tagName.toLowerCase() == 
 }
 self.on("message", function(data) {
     var strPos = node.selectionStart;
-        node.value = node.value.substring(0, strPos) + data + node.value.substring(node.selectionEnd, node.value.length);
-        node.selectionStart = node.selectionEnd = strPos + data.length;
-        node.focus();
-        form.submit();
+    node.value = node.value.substring(0, strPos) + data + node.value.substring(node.selectionEnd, node.value.length);
+    node.selectionStart = node.selectionEnd = strPos + data.length;
+    node.focus();
+    form.submit();
 });
